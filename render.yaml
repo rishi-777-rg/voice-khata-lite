@@ -1,0 +1,17 @@
+﻿services:
+  - type: web
+    name: voice-khata-lite
+    env: python
+    region: singapore
+    plan: free
+    buildCommand: "npm --prefix frontend install && npm --prefix frontend run build && pip install -r backend/requirements.txt && python backend/seed.py"
+    startCommand: "cd backend && gunicorn app:app"
+    envVars:
+      - key: SHOP_NAME
+        value: "Sharma General Store"
+      - key: SHOP_UPI_ID
+        value: "sharma@upi"
+      - key: FLASK_DEBUG
+        value: "false"
+      - key: PYTHON_VERSION
+        value: "3.11.9"

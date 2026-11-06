@@ -1,0 +1,51 @@
+﻿raw_text,expected_intent,expected_customer,expected_amount
+Ramesh ko 200 ka udhaar 2 kilo cheeni,ADD_UDHAAR,Ramesh,200
+Sunita ne paanch sau diye,ADD_PAYMENT,Sunita,500
+Mohan ka kitna baaki hai,QUERY_BALANCE,Mohan,NA
+रमेश को डेढ़ सौ का उधार,ADD_UDHAAR,Ramesh,150
+Raju ko 350 ka udhaar ek packet atta,ADD_UDHAAR,Raju,350
+Priya ne do sau pachaas jama kiye,ADD_PAYMENT,Priya,250
+Geeta ka hisaab batao,QUERY_BALANCE,Geeta,NA
+Anil ko 80 rupaye udhaar do sabun,ADD_UDHAAR,Anil,80
+Kavita ne chhe sau diye,ADD_PAYMENT,Kavita,600
+Deepak ka balance kitna hai,QUERY_BALANCE,Deepak,NA
+Meena ko ek hazaar ka udhaar ration saman,ADD_UDHAAR,Meena,1000
+Suresh ne teen sau wapas diye,ADD_PAYMENT,Suresh,300
+Ramesh ka total kitna baaki hai,QUERY_BALANCE,Ramesh,NA
+Rohit ko dhai sau ka udhaar tel aur namak,ADD_UDHAAR,Rohit,250
+Anita ne char sau diye,ADD_PAYMENT,Anita,400
+Vikas ka banta kitna hai,QUERY_BALANCE,Vikas,NA
+Sanjay ko dedh sau ka udhaar 1 litre doodh,ADD_UDHAAR,Sanjay,150
+Sunita ko sawa sau ka udhaar biscuit,ADD_UDHAAR,Sunita,125
+Pooja ne do hazaar jama karwaye,ADD_PAYMENT,Pooja,2000
+Mohan ko paune do sau ka udhaar,ADD_UDHAAR,Mohan,175
+सुनीता ने पांच सौ दिए,ADD_PAYMENT,Sunita,500
+मोहन का कितना बाकी है,QUERY_BALANCE,Mohan,NA
+Ramesh ne udhaar chuka diya paanch sau,ADD_PAYMENT,Ramesh,500
+Rajesh ko 1500 rupaye udhaar ghee aur tel,ADD_UDHAAR,Rajesh,1500
+Kiran ne aath sau rupaye diye,ADD_PAYMENT,Kiran,800
+Vijay ka hisaab kya hai,QUERY_BALANCE,Vijay,NA
+Manoj ko bees rupaye ka udhaar toffee,ADD_UDHAAR,Manoj,20
+Pooja ka kitna baaki,QUERY_BALANCE,Pooja,NA
+Mukesh ne tees rupaye diye,ADD_PAYMENT,Mukesh,30
+Amit ko chaalees ka udhaar,ADD_UDHAAR,Amit,40
+Kamal ne pachaas diye,ADD_PAYMENT,Kamal,50
+Sunita ka balance batao,QUERY_BALANCE,Sunita,NA
+Rakesh ko saat sau ka udhaar bori chawal,ADD_UDHAAR,Rakesh,700
+Santosh ne nau sau jama kiye,ADD_PAYMENT,Santosh,900
+Lalit ka hisaab karo,QUERY_BALANCE,Lalit,NA
+Neeraj ko sau rupaye ka udhaar,ADD_UDHAAR,Neeraj,100
+Kavita ka kitna banta hai,QUERY_BALANCE,Kavita,NA
+Dinesh ne baarah sau diye,ADD_PAYMENT,Dinesh,1200
+Aakash ko chaar sau pachaas ka udhaar,ADD_UDHAAR,Aakash,450
+Asha ne pandrah sau diye,ADD_PAYMENT,Asha,1500
+Priya ka kitna baaki hai,QUERY_BALANCE,Priya,NA
+Suresh ko 250 ka udhaar 3 litre tel,ADD_UDHAAR,Suresh,250
+Harish ne saat sau pachaas jama kiye,ADD_PAYMENT,Harish,750
+Gopal ka hisaab kitna hai,QUERY_BALANCE,Gopal,NA
+Mohit ko aath sau ka udhaar masale,ADD_UDHAAR,Mohit,800
+Sita ne das rupaye diye,ADD_PAYMENT,Sita,10
+Sunil ko 500 ka udhaar likh do,ADD_UDHAAR,Sunil,500
+Raju ka total balance batao,QUERY_BALANCE,Raju,NA
+Pradeep ne teen hazaar diye,ADD_PAYMENT,Pradeep,3000
+Geeta ko sawa do sau ka udhaar,ADD_UDHAAR,Geeta,225

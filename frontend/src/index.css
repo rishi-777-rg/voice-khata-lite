@@ -1,0 +1,26 @@
+﻿@import "tailwindcss";
+
+/* Base font - use system fonts for performance */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Mic pulse animation - shown when recording */
+@keyframes pulse-ring {
+  0% { transform: scale(1); opacity: 0.8; }
+  50% { transform: scale(1.15); opacity: 0.4; }
+  100% { transform: scale(1); opacity: 0.8; }
+}
+.mic-pulse {
+  animation: pulse-ring 1.2s ease-in-out infinite;
+}
+
+/* Smooth fade-in for cards */
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.fade-in {
+  animation: fade-in 0.25s ease-out;
+}
